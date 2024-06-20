@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    @apply text-primary-white;
+    background-color: rgb(30, 30, 30);
+}

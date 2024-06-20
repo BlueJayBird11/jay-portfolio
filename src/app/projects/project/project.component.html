@@ -1,0 +1,25 @@
+<app-card class="">
+  <button
+    class="bg-primary-100 hover:bg-primary-300 flex gap-2 px-2 py-4 cursor-pointer w-full"
+    (click)="selectProject()"
+  >
+    <div class="text-left mx-4">
+      <h2 class="text-2xl mb-1">{{ project.name }}</h2>
+      <h2 class="mb-1">{{ project.startDate }} - {{ project.endDate }}</h2>
+      <p class="italic text-sm mb-1">
+        {{ project.type }}
+      </p>
+      <p class="">
+        {{ project.summary }}
+      </p>
+    </div>
+    <div class="h-64 place-content-center mr-4">
+      <img
+        [src]="firstImage(project.photosPath)"
+        alt="project image"
+        class="max-h-64 max-w-32"
+      />
+    </div>
+  </button>
+</app-card>
+<div class="py-2"></div>

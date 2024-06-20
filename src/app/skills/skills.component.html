@@ -1,0 +1,27 @@
+<section class="mt-4 w-full">
+  <app-banner>Skills</app-banner>
+  <div class="mx-28 bg-primary-100 rounded-lg text-center animate-fade-right">
+    <div class="p-4">
+      <h1 class="text-3xl font-bold">Programming Languauges</h1>
+      <hr />
+      <div class="grid grid-flow-auto grid-cols-4">
+        @for (item of programmingLanguages; track $index) {
+        <p>{{ item }}</p>
+        }
+      </div>
+    </div>
+  </div>
+  <div
+    class="mx-28 bg-primary-100 rounded-lg text-center animate-fade-left mt-4"
+  >
+    <div class="p-4">
+      <h1 class="text-3xl font-bold">Other</h1>
+      <hr />
+      <div class="grid grid-flow-auto grid-cols-3">
+        @for (item of otherSkills; track $index) {
+        <p>{{ item }}</p>
+        }
+      </div>
+    </div>
+  </div>
+</section>

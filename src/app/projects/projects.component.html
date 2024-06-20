@@ -1,0 +1,20 @@
+@if (selectedProjectId !== '') {
+<app-project-full
+  (close)="onClose()"
+  [project]="getProjectById(selectedProjectId)"
+/>
+}
+
+<section class="mt-4">
+  <app-banner> Related Coursework and Projects</app-banner>
+  <ul class="w-full flex flex-wrap justify-evenly">
+    @for (project of projects; track project.id) {
+    <li class="w-2/5">
+      <app-project
+        [project]="project"
+        (select)="setSelectedProjectId($event)"
+      />
+    </li>
+    }
+  </ul>
+</section>
