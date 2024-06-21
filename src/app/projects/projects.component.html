@@ -5,11 +5,11 @@
 />
 }
 
-<section class="mt-4">
+<section class="mt-4 xs:mx-0 mx-2">
   <app-banner> Related Coursework and Projects</app-banner>
   <ul class="w-full flex flex-wrap justify-evenly">
     @for (project of projects; track project.id) {
-    <li class="w-2/5">
+    <li class="w-full xs:w-2/5">
       <app-project
         [project]="project"
         (select)="setSelectedProjectId($event)"

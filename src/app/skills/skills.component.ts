@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { BannerComponent } from '../shared/banner/banner.component';
+import { FullCardComponent } from '../shared/full-card/full-card.component';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [BannerComponent],
+  imports: [BannerComponent, FullCardComponent],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
