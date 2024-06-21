@@ -10,5 +10,5 @@ import { environment } from '../../environments/environment';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-  formUrl: string = 'https://formspree.io/f/' + environment.contactKey;
+  formUrl: string = 'https://formspree.io/f/' + import.meta.env.NG_APP_FORMSKEY;
 }
