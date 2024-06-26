@@ -13,7 +13,7 @@ export class ProjectsService {
       type: 'Senior Capstone Project for Louisiana Tech University',
       photosPath: 'unijet',
       summary: 'Campus carpooling application to allow students to request and accept rides to reduce parking on campus.',
-      skills: 'Reactjs, Expressjs, PostgreSQL, typescript, Node.js',
+      skills: 'Reactjs, Expressjs, PostgreSQL, Typescript, Node.js',
       fullSummary: ['Campus carpooling application to allow students to request and accept rides to reduce parking on campus.',
       '▪ Developed flexible backend that allowed developers to connect the frontend to the database via Express.js for 3 months.',
       '▪ Created logic that allowed passengers to request rides, drivers to accept passenger\'s requests, and show the user the current route on the React frontend.',
@@ -74,7 +74,7 @@ export class ProjectsService {
       '▪ Made a text based adventure game with a team with both protections and vulnerabilies for other students to solve at the Cyberstorm'],
       links: [],
       startDate: 'Dec. 2019',
-      endDate: 'May. 2020'
+      endDate: 'May 2020'
     },
     {
       id: 'p6',
@@ -88,8 +88,8 @@ export class ProjectsService {
       '▪ Learned the basics to Unity shaders, such as ShaderGraphs and ShaderLab'],
       links: [['Blade Diver (Project 3)', 'https://drive.google.com/file/d/1T0Ff6t1wD9CELkHV3XKTkgdQ4rpzcR3R/view?usp=sharing'],
       ['GameJam Game', 'https://itch.io/jam/8th-annual-louisiana-tech-university-game-jam/rate/2645882']],
-      startDate: 'Dec. 2019',
-      endDate: 'May. 2020'
+      startDate: 'Mar. 2024',
+      endDate: 'May 2024'
     },
   ];
   constructor() { }
